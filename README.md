@@ -10,6 +10,7 @@ This guide documents the complete setup of ArgoCD for continuous deployment usin
   - 8443 (ArgoCD UI)
   - 5000 (Vote service - optional)
   - 5001 (Result service - optional)
+  - 8080 (Kubernetes Dashboard {use port forwarding})
 
 ## Installation Steps
 
@@ -260,9 +261,7 @@ ArgoCD/
 
 ## Author
 
-**Yash Londhe**
+**Yash Zore**
 - GitHub: [@yash252525](https://github.com/yash252525)
 
-## License
 
-MIT License
