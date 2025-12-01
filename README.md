@@ -126,7 +126,7 @@ Login credentials:
 2. Fill in details:
    - **Application Name:** voting-app
    - **Project:** default
-   - **Repository URL:** https://github.com/yash252525/Kubernetes
+   - **Repository URL:** https://github.com/yash252525/ArgoCD.git
    - **Path:** VotingApp/deployments
    - **Cluster URL:** https://kubernetes.default.svc
    - **Namespace:** default
