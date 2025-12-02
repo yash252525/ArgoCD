@@ -95,6 +95,7 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
 ```
 
 **Important:** Port-forward with external access (required for EC2):
+We require Port Forwarding due to Kind Cluster (which utilizes docker {to create Kubernetes Cluster} so we need to expose port to ec2 instance).
 ```bash
 kubectl port-forward -n argocd service/argocd-server 8443:443 --address=0.0.0.0 &
 ```
